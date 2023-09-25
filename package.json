@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "full-stack": "concurrently --kill-others \"npm --prefix ./backend run dev\" \"npm --prefix frontend run dev\"",
+    "i-backend": "npm --prefix ./backend install",
+    "i-frontend": "npm --prefix ./frontend install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omardieh/fullstack-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omardieh/fullstack-mern/issues"
+  },
+  "homepage": "https://github.com/omardieh/fullstack-mern#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
